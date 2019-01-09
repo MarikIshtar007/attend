@@ -25,7 +25,7 @@ public class Attendance {
 		
 		System.out.println(" ID \t"+"\t"+"Name"+"\t \t \t"+"Attended");
 		ArrayList<Details> list=new ArrayList<>();
-		Details st1=new Details(100,"ahmed mohammed",0);
+		Details st1=new Details(100,"Haany Ali",0);
 		Details st2=new Details(101,"morwan khair",0);
 		
 		list.add(st1);
