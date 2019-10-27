@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 class Details { 
+	// Basic class object for the details of the student
     int id,coun;
 	String name;
 	 
@@ -12,10 +13,23 @@ class Details {
 	}
 }
 
+//The Driver Class
 public class Attendance {
 	
 	public static void main(String[] args) {
 		
+		/*
+		import java.util.Scanner;
+		String dept, year, subjects;
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter your department: ")
+		dept = s.next();
+		System.out.println("Enter your year: ")
+		year = s.next();
+		System.out.println("Enter your subject: ")
+		subject = s.next();
+
+		*/
 		String dept="CS";
 		String year="2018-19";
 		String subject="Software engineering";
@@ -45,6 +59,7 @@ public class Attendance {
 	}
 	}
 	
+	// Method that records attendane responses of the students
 	public static void check(ArrayList<Details> list){
 		
 		for(int j=0;j<list.size();j++) {
